@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3A6186;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.titre {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border: 0 0 2px 2px solid #000;
+    display: inline-block;
+    color: #333;
+}
+
+.wrapper {
+    max-height: 300px;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper .item {
+    min-width: 110px;
+    height: 120px;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+.carte {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.carte img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+}
+
+.carte p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: white;
+}
+.jeu {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+}

@@ -1,0 +1,28 @@
+.card-container {
+    display: flex;
+    max-height: 80vh; /* Limite de la hauteur, ajustez selon vos besoins */
+    overflow-y: scroll; /* Défilement vertical */
+}
+
+.card-container > * {
+    height: 330px; /* Hauteur fixe pour chaque carte, ajustez selon vos besoins */
+    flex-shrink: 0; /* Empêche les cartes de rétrécir */
+    margin-bottom: 10px; /* Espace entre les cartes, ajustez selon vos besoins */
+}
+.card-container2 {
+    display: flex;
+    max-height: 80vh;
+    overflow-y: scroll; /* Défilement vertical */
+}
+
+.card-container2 > * {
+    height: 450px; /* Hauteur fixe pour chaque carte, ajustez selon vos besoins */
+    flex-shrink: 0; /* Empêche les cartes de rétrécir */
+    margin-bottom: 10px; /* Espace entre les cartes, ajustez selon vos besoins */
+}
+.containerCard {
+    margin-top: 50px;
+}
+.containerSalon {
+    margin-top: 50px;
+}

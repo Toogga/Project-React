@@ -1,0 +1,8 @@
+.offcanvas {
+    background-color: #3A6186;
+    color: white;
+}
+.offcanvas img {
+    border-radius: 50px;
+    border: solid 2px #fff;
+}
